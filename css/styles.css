@@ -1,0 +1,159 @@
+:root {
+	--color-grey:  #464b4f;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+.clear::after, .clear::before {
+	content: " ";
+	display: table;
+}
+
+.clear::after {
+	clear: both;
+}
+
+/* Main Styles */
+
+html {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font: 40px ;
+	font-family: 'Epilogue', sans-serif;
+	
+	
+}
+.header {
+	
+	background: url('../images/header.jpg') no-repeat top center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.container {
+	padding-top: 10vh;
+	text-align: center;
+	
+
+}
+.logo {
+	display: block;
+	width: 135px;
+	height: 135px;
+	background: url('../images/logo.png') no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	transition: all .3s;
+
+}
+
+.logo:hover {
+	transform: scale(.8);
+}
+
+.title {
+	font-size: 80px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 15vh 0 5vh;
+	margin: 0 auto;
+}
+
+.text-header {
+	color: #ffffff;
+	font-size: 17px;
+	margin-bottom: 17vh;
+	
+}
+
+.arrow {
+	display: block;
+	background: url('../images/arrow.png') no-repeat;
+	width: 45px;
+	height: 45px;
+	background-size: contain;
+	margin: 0 auto;
+	
+}
+
+.information {
+	background: url('../images/bg.jpg') no-repeat top center;
+	max-width: 950px;
+	min-width: 350;
+	margin: 0 auto;
+}
+.about-the-author .author-head {
+	color: #464b4f;
+	padding-top: 120px;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+
+	
+}
+
+.about-the-author p {
+	color: #464b4f;
+	text-align: center;
+	font-size: 35px;
+	padding-top: 65px;
+}
+
+.author-skills {
+	color: #464b4f;
+	margin-bottom: 90px;
+
+}
+.author-skills h2 {
+	font-size: 60px;
+	text-align: center;
+	padding-top: 110px;
+
+}
+
+.author-skills ul {
+	display: flex;
+	padding-top: 100px ;
+
+
+}
+.author-skills li {
+	float: left;
+	margin-right: 10px;
+	
+
+}
+
+
+.author-skills h3 {
+	font-size: 20px;
+	color: #464b4f ;
+	font-weight: 700;
+
+}
+
+.author-skills p {
+	padding-top: 25px;
+	font-size: 20px;
+	color: #464b4f;
+}
